@@ -25,7 +25,7 @@ p.lead {
 a,
 a:focus,
 a:hover {
-  color: #9e7dd3;
+  color: #1F4174;
 }
 
 hr {
@@ -105,7 +105,7 @@ h1 small {
 }
 
 .text-primary {
-  color: #9e7dd3;
+  color: #1F4174;
 }
 
 .text-success {
@@ -330,7 +330,7 @@ section .bg-video {
   bottom: -30px;
   width: 48px;
   height: 2px;
-  background-color: #9e7dd3;
+  background-color: #1F4174;
   content: "";
 }
 
@@ -700,7 +700,7 @@ section.section-lg {
 }
 
 .site-navigation .nav-menu > li:hover > a {
-  color: #9e7dd3;
+  color: #1F4174;
 }
 
 .site-navigation .nav-menu > li:hover > a.menu-highlighted {
@@ -721,13 +721,13 @@ section.section-lg {
 }
 
 .site-navigation .nav-menu a:hover {
-  color: #9e7dd3;
+  color: #1F4174;
   text-decoration: none;
 }
 
 .site-navigation .nav-menu a.active {
-  color: #9e7dd3;
-  border-top: 2px solid #9e7dd3;
+  color: #1F4174;
+  border-top: 2px solid #1F4174;
 }
 
 .site-navigation .nav-menu a.menu-highlighted {
@@ -737,13 +737,13 @@ section.section-lg {
   padding-right: 20px;
   border-radius: 2px;
   color: #fff;
-  background-color: #a788d7;
+  background-color: #284c78;
   transition: all 0.2s linear;
 }
 
 .site-navigation .nav-menu a.menu-highlighted:hover {
   color: #fff;
-  background-color: #9e7dd3;
+  background-color: #1F4174;
 }
 
 .site-navigation .nav-menu ul {
@@ -752,7 +752,7 @@ section.section-lg {
   left: 0;
   z-index: 2;
   background-color: #fff;
-  border-top: 2px solid #9e7dd3;
+  border-top: 2px solid #1F4174;
   padding: 8px;
   opacity: 0;
   visibility: hidden;
@@ -782,7 +782,7 @@ section.section-lg {
 }
 
 .offcanvas-show .navbar-toggle {
-  color: #9e7dd3;
+  color: #1F4174;
 }
 
 .sticky-nav .site-header {
@@ -862,7 +862,7 @@ section.section-lg {
 
 .transparent-nav .site-navigation .nav-menu ul a:hover,
 .transparent-nav .site-navigation .nav-menu ul a.active {
-  color: #9e7dd3;
+  color: #1F4174;
 }
 
 .transparent-nav.sticky-nav .site-navigation {
@@ -894,13 +894,13 @@ section.section-lg {
 .transparent-nav.body-scrolled .site-navigation .nav-menu a.active,
 .transparent-nav.body-scrolled .site-navigation .navbar-toggle:hover,
 .transparent-nav.body-scrolled .site-navigation .navbar-toggle.active {
-  color: #9e7dd3;
-  border-top-color: #9e7dd3;
+  color: #1F4174;
+  border-top-color: #1F4174;
 }
 
 .transparent-nav.body-scrolled .site-navigation .nav-menu > li:hover > a {
-  color: #9e7dd3;
-  border-top-color: #9e7dd3;
+  color: #1F4174;
+  border-top-color: #1F4174;
 }
 
 .transparent-nav.body-scrolled .site-navigation .nav-menu a.menu-highlighted {
@@ -986,7 +986,7 @@ section.section-lg {
   }
   .transparent-nav .site-navigation .nav-menu a:hover,
   .transparent-nav .site-navigation .nav-menu a.active {
-    color: #9e7dd3;
+    color: #1F4174;
   }
   .transparent-nav .site-navigation .nav-menu a.menu-highlighted {
     color: #fff;
@@ -999,7 +999,7 @@ section.section-lg {
 @media (min-width: 992px) {
   .page-navigation.full-topbar {
     padding: 0 15px;
-    background-color: #9e7dd3;
+    background-color: #1F4174;
     height: 40px;
     overflow: hidden;
     position: fixed;
@@ -1048,7 +1048,7 @@ section.section-lg {
   }
   .page-navigation.dotted-topbar {
     padding: 0 15px;
-    background-color: #9e7dd3;
+    background-color: #1F4174;
     position: fixed;
     top: 0;
     left: 0;
@@ -1135,7 +1135,7 @@ section.section-lg {
     font-size: 13px;
     letter-spacing: 1px;
     background-color: #fff;
-    color: #9e7dd3;
+    color: #1F4174;
     line-height: 34px;
     white-space: nowrap;
     border-radius: 2px;
@@ -1166,7 +1166,7 @@ section.section-lg {
   .page-navigation.sidebar-right a:hover {
     background-color: transparent;
     text-decoration: none;
-    color: #9e7dd3;
+    color: #1F4174;
   }
   .page-navigation.sidebar-left a:focus,
   .page-navigation.sidebar-left a:active,
@@ -1174,7 +1174,7 @@ section.section-lg {
   .page-navigation.sidebar-right a:active {
     background-color: transparent;
     text-decoration: none;
-    color: #9e7dd3;
+    color: #1F4174;
   }
   .page-navigation.sidebar-left .nav > li > ul,
   .page-navigation.sidebar-right .nav > li > ul {
@@ -1196,8 +1196,8 @@ section.section-lg {
   }
   .page-navigation.sidebar-left li.active > a,
   .page-navigation.sidebar-right li.active > a {
-    color: #9e7dd3;
-    border-left-color: #9e7dd3;
+    color: #1F4174;
+    border-left-color: #1F4174;
   }
   .page-navigation.sidebar-left .nav > li.active > a,
   .page-navigation.sidebar-right .nav > li.active > a {
@@ -1242,7 +1242,7 @@ section.section-lg {
 @media (max-width: 991px) {
   .page-navigation {
     padding: 0 15px;
-    background-color: #9e7dd3;
+    background-color: #1F4174;
     position: fixed;
     top: 0;
     left: 0;
@@ -1333,7 +1333,7 @@ section.section-lg {
     font-size: 13px;
     letter-spacing: 1px;
     background-color: #fff;
-    color: #9e7dd3;
+    color: #1F4174;
     line-height: 34px;
     white-space: nowrap;
     border-radius: 2px;
@@ -1588,7 +1588,7 @@ section.section-lg {
 }
 
 .form-group.form-material .form-control:focus {
-  border-bottom-color: #9e7dd3;
+  border-bottom-color: #1F4174;
 }
 
 .form-group.form-material-floating {
@@ -1619,14 +1619,14 @@ section.section-lg {
 }
 
 .form-group.form-material-floating .form-control:focus {
-  border-bottom-color: #9e7dd3;
+  border-bottom-color: #1F4174;
 }
 
 .form-group.form-material-floating.input-touched label {
   top: -6px;
   font-size: 1.1rem;
   font-weight: 600;
-  color: #9e7dd3;
+  color: #1F4174;
 }
 
 .form-group.search-control {
@@ -1679,7 +1679,7 @@ section.section-lg {
 }
 
 .label-primary {
-  background-color: #9e7dd3;
+  background-color: #1F4174;
 }
 
 .label-success {
@@ -1815,10 +1815,10 @@ section.section-lg {
   text-transform: uppercase;
   letter-spacing: 1px;
   border-radius: 3px;
-  border-color: #9e7dd3;
+  border-color: #1F4174;
   padding: 0 30px;
   color: #fff;
-  background-color: #9e7dd3;
+  background-color: #1F4174;
   transition: all 0.4s ease;
 }
 
@@ -1826,7 +1826,7 @@ section.section-lg {
 .btn:focus,
 .btn:active {
   color: #fff;
-  background-color: #a485d6;
+  background-color: #254977;
   border-color: transparent;
   box-shadow: none;
   outline: none;
@@ -1971,7 +1971,7 @@ section.section-lg {
 }
 
 .btn-outline.btn {
-  color: #9e7dd3;
+  color: #1F4174;
 }
 
 .btn-outline.btn-success {
@@ -2143,11 +2143,11 @@ section.section-lg {
 
 .tabs-text .nav-tabs > li.active {
   margin-bottom: -1px;
-  border-bottom: 1px solid #9e7dd3;
+  border-bottom: 1px solid #1F4174;
 }
 
 .tabs-text .nav-tabs > li.active a {
-  color: #9e7dd3;
+  color: #1F4174;
 }
 
 .tabs-icon .nav-tabs > li a {
@@ -2164,11 +2164,11 @@ section.section-lg {
 
 .tabs-icon .nav-tabs > li.active {
   margin-bottom: -1px;
-  border-bottom: 1px solid #9e7dd3;
+  border-bottom: 1px solid #1F4174;
 }
 
 .tabs-icon .nav-tabs > li.active a {
-  color: #9e7dd3;
+  color: #1F4174;
 }
 
 .tabs-btn .nav-tabs {
@@ -2185,7 +2185,7 @@ section.section-lg {
 }
 
 .tabs-btn .nav-tabs li.active a {
-  color: #9e7dd3;
+  color: #1F4174;
 }
 
 @media (max-width: 767px) {
@@ -2656,7 +2656,7 @@ pre.simple-view {
 .step-image .carousel-indicators .active::before,
 .step-image .carousel-indicators li:hover::before {
   color: #fff;
-  background-color: #9e7dd3;
+  background-color: #1F4174;
 }
 
 .step-image .carousel-control {
@@ -2735,7 +2735,7 @@ pre.simple-view {
 }
 
 .link-list a:hover {
-  color: #9e7dd3;
+  color: #1F4174;
   text-decoration: none;
 }
 
@@ -2746,13 +2746,13 @@ pre.simple-view {
   height: 8px;
   vertical-align: middle;
   margin-right: 12px;
-  border: 1px solid #9e7dd3;
+  border: 1px solid #1F4174;
   border-radius: 100%;
   transition: all 0.4s ease;
 }
 
 .link-list a:hover::before {
-  background-color: #9e7dd3;
+  background-color: #1F4174;
 }
 
 .link-list a::after {
@@ -2976,7 +2976,7 @@ pre.simple-view {
   text-align: center;
   font-size: 72px;
   border-radius: 100%;
-  color: #ac90d9;
+  color: #2d547a;
   transition: all 0.2s ease;
 }
 
@@ -2997,13 +2997,13 @@ pre.simple-view {
 }
 
 .features.icon-round .icon {
-  background-color: #ac90d9;
+  background-color: #2d547a;
   color: #fff;
   font-size: 48px;
 }
 
 .features.icon-round li:hover .icon {
-  background-color: #a485d6;
+  background-color: #254977;
 }
 
 .features.icon-sided {
@@ -3287,7 +3287,7 @@ figcaption {
 }
 
 .video-js .vjs-progress-holder .vjs-play-progress {
-  background-color: #9e7dd3;
+  background-color: #1F4174;
 }
 
 /*------------------------------------
@@ -3371,12 +3371,12 @@ figcaption {
 
 .lSSlideOuter .lSPager.lSpg > li a {
   background-color: transparent;
-  border: 1px solid #9e7dd3;
+  border: 1px solid #1F4174;
   transition: background-color .3 ease-in;
 }
 
 .lSSlideOuter .lSPager.lSpg > li.active a {
-  background-color: #9e7dd3;
+  background-color: #1F4174;
 }
 
 @media (max-width: 991px) {
@@ -3473,7 +3473,7 @@ figcaption {
 }
 
 .faq-items h4 {
-  color: #9e7dd3;
+  color: #1F4174;
 }
 
 .faq-items p {
