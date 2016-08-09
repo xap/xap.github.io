@@ -1,0 +1,31 @@
+/*
+== General
+*/
+
+.code-preview .btn {
+  margin-bottom: 6px;
+  margin-right: 2px;
+}
+
+/*
+== Background images
+*/
+.bg-img-index-header {
+  background-image: url(../img/bg-index.jpg);
+}
+
+.bg-img-fact {
+  background-image: url(../img/bg-fact.jpg);
+}
+
+.bg-img-purchase {
+  background-image: url(../img/bg-purchase.png);
+}
+
+.bg-img-faq-header {
+  background-image: url(../img/bg-page.jpg);
+}
+
+.bg-img-tutorial-header {
+  background-image: url(../img/bg-page.jpg);
+}

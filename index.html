@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <title>XAP - In-Memory Data Grid</title>
+
+    <!-- Styles -->
+    <link href="assets/css/app.min.css" rel="stylesheet">
+    <link href="assets/css/theguide.css" rel="stylesheet">
+    <link href="assets/css/custom.css" rel="stylesheet">
+	
+	
+
+    <!-- Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Raleway:300,400,500,600,800%7COpen+Sans:300,400,500,600,700,800%7CMontserrat:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="icon" href="assets/img/favicon.ico">
+  </head>
+
+  <body class="sticky-nav">
+
+    <!-- Navigation -->
+    <nav class="page-navigation full-topbar">
+      <ul class="nav">
+        <li><a href="#sec-intro">Introduction</a></li>
+        
+        <li><a href="#sec-starter-template">Your First Application</a></li>
+		<li><a href="#sec-whats-included">Open Source Contents</a></li>
+        <li><a href="#sec-quick-start">XAP Community</a></li>
+      </ul>
+    </nav>
+    <!-- END Navigation -->
+
+
+    <!-- Site header -->
+    <header class="site-header">
+
+      <!-- Logo & Navigation -->
+      <nav class="site-navigation">
+        <div class="container-fluid">
+          <div class="logo">
+            <a class="logo-default" href="index.html"><img src="assets/img/xap-logo.png" alt="logo"></a>
+            <a class="logo-transparent" href="index.html"><img src="assets/img/logo-alt.png" alt="logo"></a>
+          </div>
+
+          <a class="navbar-toggle" href="#" data-toggle="offcanvas"><i class="fa fa-bars"></i></a>
+
+          <ul class="nav-menu">
+            <li><a href="http://github.com/xap">Community</a></li>
+            <li><a href="http://docs.gigaspaces.com">Documentation</a></li>
+            <li><a href="http://github.com/xap">GitHub</a></li>
+            <li><a href="http://gigaspaces.atlassian.net">JIRA</a></li>
+            
+            <li><a class="menu-highlighted" href="">Download Now</a></li>
+          </ul>
+        </div>
+      </nav>
+      <!-- END Logo & Navigation -->
+
+      <!-- Header image -->
+      <div class="header-image no-padding no-overlay bg-blue">
+        <div class="container">
+          <br><br>
+          <h1 align="center"><strong>GigaSpaces XAP</strong> </h1>
+  		  <p/>
+		  <h1 align="center">Millions of transactions per second. <p/>100% Consistency. High Availability.</h1>
+		  <br/>
+		  <ul class="features">
+		    <li>
+		      <h5>Get Excited</h5>
+		      <p>Download a copy of the XAP 12 Open Source Edition and start your first in-memory data grid.</p>
+		      <a class="btn" href="#">Download</a>
+		    </li>
+
+		    <li>
+		      <h5>Get Ready</h5>
+		      <p>Learn all the features of GigaSpaces XAP and build your first in-memory data grid application.</p>
+		      <a class="btn" href="http://docs.gigaspaces.com">Quick Start</a>
+		    </li>
+
+		    <li>
+		      <h5>Get Involved</h5>
+		      <p>Have an interesting idea? Drop us a line to contribute back to the data grid.</p>
+		      <a class="btn" href="#sec-quick-start">Fork and Pull</a>
+		    </li>
+		  </ul>
+        </div>
+      </div>
+      <!-- END Header image -->
+
+    </header>
+    <!-- END Site header -->
+
+
+    <!-- Main container -->
+    
+	  
+	  
+	  
+	  
+      <!-- Section - Introduction -->
+      <section id="sec-intro">
+        <div class="container">
+          <header class="section-header">
+            <span>We are now open!</span>
+            <h2>Why GigaSpaces XAP Open Source?</h2>
+            <p>Check out some of features that we have opened up to the community. To learn more about XAP features, continue reading our <a href="http://docs.gigaspaces.com">documentation</a> and check out the <a href="http://github.com/xap/">XAP code examples.<a/></p>
+          </header>
+
+          <ul class="features icon-rounded">
+            <li>
+              <div class="icon"><i class="fa fa-tv"></i></div>
+              <h5>Data Partitioning</h5>
+              <p>Scale your data tier by partitioning or replicating across an in-memory data grid.</p>
+            </li>
+
+            <li>
+              <div class="icon"><i class="fa fa-wrench"></i></div>
+              <h5>Event Processing</h5>
+              <p>Implement event-driven architecture workloads at microsecond latencies.</p>
+            </li>
+
+            <li>
+              <div class="icon"><i class="fa fa-cubes"></i></div>
+              <h5>Rich Query Language</h5>
+              <p>Apply SQL query semantics against POJOs, Documents, and GeoSpatial data.</p>
+            </li>
+
+            <li>
+              <div class="icon"><i class="fa fa-code"></i></div>
+              <h5>Full Transactionality</h5>
+              <p>Maintain full ACID compliance against your data set through full transaction semantics.</p>
+            </li>
+
+            <li>
+              <div class="icon"><i class="fa fa-file-text-o"></i></div>
+              <h5>Distributed Execution</h5>
+              <p>Leverage in-memory Map/Reduce patterns as well as ultra-low latency remoting for high-throughput processing.</p>
+            </li>
+
+            <li>
+              <div class="icon"><i class="fa fa-download"></i></div>
+              <h5>Persistence</h5>
+              <p>Persist your data using highly-avaialble asynchronous write behind patterns to relational and NoSQL data stores.</p>
+            </li>
+          </ul>
+
+        </div>
+      </section>
+      <!-- END Section - Introduction -->
+
+      <!-- Section - Starter template -->
+      <section id="sec-starter-template">
+        <div class="container">
+          <header class="section-header">
+            <span>Become a XAP hero</span>
+            <h2>Your First XAP Application</h2>
+            <p>You need somewhere to start. Check out the code below to build your first data grid.</p>
+          </header>
+
+<!-- Experiment -->
+		  <div class="tabs tabs-text">
+
+		    <!-- Nav tabs -->
+		    <ul class="nav nav-tabs text-right" role="tablist">
+		      <li role="presentation" class="active">
+		        <a href="#home3" aria-controls="home3" role="tab" data-toggle="tab">Hello World</a>
+		      </li>
+		      <li role="presentation">
+		        <a href="#profile3" aria-controls="profile3" role="tab" data-toggle="tab">Distributed Tasks</a>
+		      </li>
+		      <li role="presentation">
+		        <a href="#messages3" aria-controls="messages3" role="tab" data-toggle="tab">Event Processing</a>
+		      </li>
+		      <li role="presentation">
+		        <a href="#settings3" aria-controls="settings3" role="tab" data-toggle="tab">Persistency</a>
+		      </li>
+		    </ul>
+
+		    <!-- Tab panes -->
+		    <div class="tab-content">
+		      <div role="tabpanel" class="tab-pane active fade in" id="home3">
+				<pre class="line-numbers"><code class="language-java">
+				package com.gigaspaces.demo;
+
+import com.j_spaces.core.client.SQLQuery;
+import org.openspaces.core.GigaSpace;
+import org.openspaces.core.GigaSpaceConfigurer;
+import org.openspaces.core.space.SpaceProxyConfigurer;
+
+public class Program {
+
+	public static void main(String[] args) {
+
+	        System.out.println("Connecting to data grid");
+	        SpaceProxyConfigurer configurer = new SpaceProxyConfigurer("myGrid");
+	        configurer.lookupGroups("xap-11.0.0");
+	        GigaSpace gigaSpace = new GigaSpaceConfigurer(configurer).create();
+
+	        configurer.close();
+    }
+}
+
+				</code></pre>
+		      </div>
+		      <div role="tabpanel" class="tab-pane fade" id="profile3">
+<div class="code-splitted">
+				<div class="code-group col-md-7">
+					<pre class="line-numbers"><code class="language-java">
+public class MyDistTask implements DistributedTask<Integer, Long> {
+
+  public Integer execute() throws Exception {
+    return 1;
+  }
+
+  public Long reduce(List<AsyncResult<Integer>> results) throws Exception {
+    long sum = 0;
+    for (AsyncResult<Integer> result : results) {
+      if (result.getException() != null) {
+        throw result.getException();
+      }
+      sum += result.getResult();
+    }
+    return sum;
+  }
+}
+				</code></pre>
+					 </div>
+					 	<div class="code-preview col-md-5">
+						   <div class="list-view-item">
+						   		<h5>Distributed Tasks</h5>
+						   		<p>XAP supports Task execution in an asynchronous manner, collocated with the Space. Tasks can be executed directly on a specific cluster member using routing declarations. Tasks can also be executed in “broadcast” mode on all the primary cluster members concurrently and reduced to a single result on the client-side.</p>
+						   				                <a class="read-more" href="http://docs.gigaspaces.com/xap110/task-execution-over-the-space.html">Continue reading...</a>
+						   				              </div>
+						   				            </div>
+						   				          </div>
+		      </div>
+		      <div role="tabpanel" class="tab-pane fade" id="messages3">
+		      	
+	 <div class="code-splitted">
+		    <div class="code-group col-md-7">
+				<pre class="line-numbers"><code class="language-java">
+				@EventDriven @Polling
+				public class SimpleListener {
+
+				    @EventTemplate
+				    Data unprocessedData() {
+				        Data template = new Data();
+				        template.setProcessed(false);
+				        return template;
+				    }
+
+				    @SpaceDataEvent
+				    public Data eventListener(Data event) {
+				        //process Data here
+				    }
+				}
+				</code></pre>
+				            </div>
+
+				            <div class="code-preview col-md-5">
+				              <div class="list-view-item">
+				                <h5>Event Containers</h5>
+				                <p>The polling event container is an implementation of the polling consumer pattern which uses the space to receive events. It performs polling receive operations against the space. A polling event operation is mainly used when simulating Queue semantics or when using the master-worker design pattern.</p>
+				                <a class="read-more" href="http://docs.gigaspaces.com/xap110/polling-container.html">Continue reading...</a>
+				              </div>
+				            </div>
+				          </div>
+				
+				
+		      </div>
+		      <div role="tabpanel" class="tab-pane fade" id="settings3">
+		      	
+				
+				
+				<div class="code-splitted">
+								<div class="code-group col-md-7">
+									<pre class="line-numbers"><code class="language-java">
+				public class MyDistTask implements DistributedTask<Integer, Long> {
+
+				  public Integer execute() throws Exception {
+				    return 1;
+				  }
+
+				  public Long reduce(List<AsyncResult<Integer>> results) throws Exception {
+				    long sum = 0;
+				    for (AsyncResult<Integer> result : results) {
+				      if (result.getException() != null) {
+				        throw result.getException();
+				      }
+				      sum += result.getResult();
+				    }
+				    return sum;
+				  }
+				}
+								</code></pre>
+									 </div>
+									 	<div class="code-preview col-md-5">
+										   <div class="list-view-item">
+										   		<h5>Distributed Tasks</h5>
+										   		<p>XAP supports Task execution in an asynchronous manner, collocated with the Space. Tasks can be executed directly on a specific cluster member using routing declarations. Tasks can also be executed in “broadcast” mode on all the primary cluster members concurrently and reduced to a single result on the client-side.</p>
+										   				                <a class="read-more" href="http://docs.gigaspaces.com/xap110/task-execution-over-the-space.html">Continue reading...</a>
+										   				              </div>
+										   				            </div>
+										   				          </div>
+						      </div>
+				
+				
+		      </div>
+		    </div>
+
+		  </div>
+		  
+		  
+		  <!-- Experiment -->
+        </div>
+      </section>
+      <!-- END Section - Starter template -->
+	  
+	  
+      <!-- Section - What's included -->
+      <section id="sec-whats-included">
+        <div class="container">
+          <header class="section-header">
+            <span>Unboxing</span>
+            <h2>What's included</h2>
+            <p>Checkout the files that you'll see upon downloading</p>
+          </header>
+
+          <p>Once you download the Open Source edition, you can see a folder with several files and sub folders. Check out the tree below to see which files are relevant for you.</p>
+
+          <div class="file-tree">
+              
+            <ul>
+              <li class="is-folder open">
+                <span>gigaspaces-xap-open-12.0.0-ga</span>
+                <ul>
+                  <li class="is-folder open">
+                    <span>bin</span>
+                    <ul>
+                      <li class="is-file"><span>space-instance.sh</span><i>Starts an instance of a Space</i></li>
+                      <li class="is-file"><span>pu-instance.sh</span><i>Starts an instance of a XAP Processing Unit</i></li>
+                    </ul>
+                  </li>
+                  <li class="is-folder"><span>config</span><i>Here is a place where you can set cluster-wide configuration settings.</i></li>
+                  <li class="is-folder"><span>deploy</span></li>
+                  <li class="is-folder open">
+                    <span>examples</span>
+                    <ul>
+                      <li class="is-folder"><span>hello-world</span><i>Explore the Space data modeling and read/write API</i></li>
+                      <li class="is-folder"><span>hola-mundo</span><i>Implement a processing unit with space-based architecture patterns</i></li>
+                    </ul>
+                  </li>
+                  <li class="is-folder"><span>lib</span><i>This is where the core XAP data grid runtime engine lives.</i></li>
+				  <li class="is-folder"><span>logs</span></li>
+				  <li class="is-folder"><span>policy</span></li>
+                </ul>
+              </li>
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+      <!-- END Section - What's included -->
+
+      
+
+      <!-- Section - Quick start -->
+      <section id="sec-quick-start">
+        <div class="container">
+          <header class="section-header">
+            <span>Get your hands dirty</span>
+            <h2>Community</h2>
+            <p>Please reach out if you'd like to get involved in the XAP community</p>
+          </header>
+
+          <ul class="step-text step-cols-2">
+            <li>
+              <h5>Contributing Code</h5>
+              <p>We welcome contributions and feature proposals from the community. All comitters should sign a <a href="">Contributor License Agreement</a> before submitting a pull request to us over GitHub. For more information, please consult the <a href="CONTRIBUTING.md">CONTRIBUTING.md</a> guidelines</p>
+            </li>
+
+            <li>
+              <h5>Source Code and Licensing</h5>
+              <p>The XAP Open Source edition source code is available under the <a href="http://github.com/xap">XAP GitHub Repository</a> along with the associated build scripts. All code is available under the Apache 2 license.</p>
+            </li>
+
+            <li>
+              <h5>Community Forums</h5>
+              <p>Join thousands of XAP developers, customers and users to have your XAP questions answered at <a href="http://ask.gigaspaces.org">http://ask.gigaspaces.org</a> </p>
+            </li>
+
+            <li>
+              <h5>Commercial Support</h5>
+              <p>Interested in a commercial edition of the product? You can <a href="http://www.gigaspaces.com/xap-download">download a trial version</a> of the XAP Premium and Enterprise edition to test drive additional features in the grid.</p>
+            </li>
+          </ul>
+
+
+        </div>
+      </section>
+      <!-- END Section - Quick start -->
+
+    </main>
+    <!-- END Main container -->
+
+
+    <!-- Site footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <ul class="footer-links">
+              <li><a href="http://www.gigaspaces.com/about">About</a></li>
+              <li><a href="http://www.gigaspaces.com/privacy">Privacy policy</a></li>
+              <li><a href="http://jobs.gigaspaces.com/">Careers</a></li>
+              <li><a href="http://www.gigaspaces.com/contactus">Contact us</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="footer-socials">
+              <li><a class="facebook" href="https://www.linkedin.com/company/gigaspaces"><i class="fa fa-linkedin"></i></a></li>
+              <li><a class="twitter" href="https://twitter.com/gigaspaces"><i class="fa fa-twitter"></i></a></li>
+              <li><a class="dribble" href="http://github.com/xap"><i class="fa fa-github"></i></a></li>
+              <li><a class="youtube" href="https://www.youtube.com/user/gigaspacestv"><i class="fa fa-youtube"></i></a></li>
+             
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyrights &copy; 2016 All Rights Reserved by <a href="http://www.gigaspaces.com">GigaSpaces</a>.</p>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <p class="back-to-top"><a id="scroll-up" href="#">back to top</a></p>
+          </div>
+        </div>
+        
+      </div>
+    </footer>
+    <!-- END Site footer -->
+
+
+    <!-- Scripts -->
+    <script src="assets/js/app.min.js"></script>
+    <script src="assets/js/theguide.js"></script>
+    <script src="assets/js/custom.js"></script>
+
+  </body>
+</html>
