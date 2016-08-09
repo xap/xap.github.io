@@ -188,7 +188,7 @@
 		    <div class="tab-content">
 		      <div role="tabpanel" class="tab-pane active fade in" id="home3">
 				<pre class="line-numbers"><code class="language-java">
-				package com.gigaspaces.demo;
+				package org.gigaspaces.xap.demo;
 
 import org.openspaces.core.GigaSpace;
 import org.openspaces.core.GigaSpaceConfigurer;
@@ -198,7 +198,9 @@ public class Program {
 
     public static void main(String[] args) {
         System.out.println("Connecting to data grid");
+        
         SpaceProxyConfigurer configurer = new SpaceProxyConfigurer("myGrid");
+        
         GigaSpace gigaSpace = new GigaSpaceConfigurer(configurer).create();
     }
 }
