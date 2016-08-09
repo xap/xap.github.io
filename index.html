@@ -190,21 +190,16 @@
 				<pre class="line-numbers"><code class="language-java">
 				package com.gigaspaces.demo;
 
-import com.j_spaces.core.client.SQLQuery;
 import org.openspaces.core.GigaSpace;
 import org.openspaces.core.GigaSpaceConfigurer;
 import org.openspaces.core.space.SpaceProxyConfigurer;
 
 public class Program {
 
-	public static void main(String[] args) {
-
-	        System.out.println("Connecting to data grid");
-	        SpaceProxyConfigurer configurer = new SpaceProxyConfigurer("myGrid");
-	        configurer.lookupGroups("xap-11.0.0");
-	        GigaSpace gigaSpace = new GigaSpaceConfigurer(configurer).create();
-
-	        configurer.close();
+    public static void main(String[] args) {
+        System.out.println("Connecting to data grid");
+	SpaceProxyConfigurer configurer = new SpaceProxyConfigurer("myGrid");
+	GigaSpace gigaSpace = new GigaSpaceConfigurer(configurer).create();
     }
 }
 
